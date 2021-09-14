@@ -1,0 +1,49 @@
+
+    TDLPortIO: DriverLINX Port IO Driver wrapper component
+    Copyright (c) 1999 John Pappas (DiskDude). All rights reserved.
+
+    The wrapper software is FreeWare, not public domain software. If you 
+    find it useful, the author would love to hear about it via email.
+    
+    If you have any questions or comments, please contact the author via
+    Internet email <diskdude@poboxes.com> AFTER reading the documentation.
+
+    The latest version is always available from: http://diskdude.cjb.net/
+    If you didn't download this package from the above URL, chances are
+    it is out-of-date. Check often!
+
+
+File Structure of Package
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are too many files now, so here's an outline of the directory structure
+of this package.
+
+\
+   DLPortIO.pdf      TDLPortIO Documentation -- MUST READ!
+   files.txt         This file
+
+\cbuilder            
+   \cbuilder.3       C++ Builder 3.0 component version including source
+      \demo          Demo project using the component
+   \cbuilder.4       C++ Builder 4.0 component version including source
+      \demo          Demo project using the component
+
+\delphi              
+   \delphi.3         Delphi 3.0 component version including source
+      \demo          Demo project using the component
+   \delphi.4         Delphi 4.0 component version including source
+      \demo          Demo project using the component
+
+\dll                 DLL version
+   \source           Source code to the DLL
+   
+\ocx                 ActiveX (OCX) version
+   \source           Source to the ActiveX control
+
+\install             Install program for the DriverLINX drivers (WinNT)
+   \source           Source to the install program (C++ Builder project)
+   
+\DriverLINX          Files from the SST DriverLINX driver package
+   \Drivers          DriverLINX DLL and WinNT kernel mode driver files
+   \API              Interface to the DLL (.h), and Visual BASIC (.bas)
