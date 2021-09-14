@@ -71,6 +71,8 @@
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
         <VerInfo_Keys>CompanyName=;FileVersion=3.0.0.13;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=Realterm;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName);FileDescription=$(MSBuildProjectName)</VerInfo_Keys>
+        <DCC_ExeOutput>RealTerm</DCC_ExeOutput>
+        <DCC_DcuOutput>dcu</DCC_DcuOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1)'!=''">
         <VerInfo_AutoGenVersion>false</VerInfo_AutoGenVersion>

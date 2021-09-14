@@ -3,3 +3,5 @@ dcu
 *.dcu
 /comps/*.local
 /comps/*.identcache
+*.local
+*.identcache
